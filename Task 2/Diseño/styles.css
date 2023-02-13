@@ -7,7 +7,7 @@
     border-radius: 60%;
     background-color: blanchedalmond;
     position: relative;
-    margin: 5%;
+    display: inline;
 }
 #logo{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -74,4 +74,43 @@ header{
     font-weight: bold;
     font-size: 25px;
     text-decoration: underline;
+}
+#sectLogo{
+    display: inline-block;
+    position: relative;
+
+
+
+}
+#textoPrinc{
+    display: inline;
+    position: relative;
+    left: 6.5em;
+    bottom: 6.5em;
+}
+article div{
+    display: inline;
+    width: 50px;
+    height: 50px;
+    position: relative;
+}
+div p{
+    position: relative;
+    left: 2em;
+    width: fit-content;
+    
+}
+#imgFoot{
+    width: 50em;
+    border-radius: 5%;
+    display: inline-block;
+    position: relative;
+    bottom: 7em;
+}
+#imgFoot3{
+    width: 50em;
+    border-radius: 5%;
+    display: inline-block;
+    position: relative;
+    bottom: 5em;
 }
