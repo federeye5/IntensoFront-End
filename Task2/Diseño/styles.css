@@ -13,11 +13,13 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-style: oblique;
     font-size: 35px;
-    display: inline;
+    display: flex;
     width: fit-content;
+    align-items: center;
     position: relative;
-    top: 0.2em;
-    margin-left: 0em;
+    left: 1rem;
+    top: 1.2em;
+    margin: 0em;
     min-width: 10em;
     border-collapse: collapse;
     z-index: 1;
@@ -26,30 +28,35 @@
 #imgPrincipal{
     position: relative;
     display: block;
-    width: 50em;
+    width: 70rem;
     border-radius: 5%;
 }
 header{
     display: fixed ;
 }
 .main-nav{
-    display: inline-block;
-    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
     border-collapse: collapse;
-    width: 15em;
+    position: relative;
+    width: fit-content;
     height: fit-content;
-    top: 10px;
-    left: 7em;
+    top: 0.6rem;
+    left: 32rem;
     z-index: 1;
+    background-color: transparent;
 }
 .main-link{
     color: white;
     font-weight: bold;
     text-decoration: none;
     background-color: blue;
-    width: max-content; 
-    height: max-content;
-    padding: 1.5%;
+    width: 9rem; 
+    height: fit-content;
+    border: 0.1rem solid black;
+    padding: 0.1rem;
     box-shadow: 2px 2px 5px black;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -59,9 +66,24 @@ header{
     font-weight: bold;
     text-decoration: none;
     background-color: darkgreen;
-    width: max-content; 
-    height: max-content;
-    padding: 1.5%;
+    width: fit-content; 
+    height: fit-content;
+    border-style:ridge;
+    border-color: black;
+    padding: 0.3rem;
+    box-shadow: 2px 2px 5px black;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.home{
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    background-color: blue;
+    border: 0.1rem solid black;
+    width: fit-content; 
+    height: fit-content;
+    padding: 0.1rem;
     box-shadow: 2px 2px 5px black;
     text-align: center;
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
@@ -113,4 +135,8 @@ div p{
     display: inline-block;
     position: relative;
     bottom: 5em;
+}
+dt{
+    font-weight: bold;
+    font-size: 20px;
 }
