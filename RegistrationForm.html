@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/Task2/Diseño/styles.css">
+    <link rel="icon" href="./Imagenes/LogoMightyducks-01.png"
+            type="image/icontype">
+        <title>Mighty Ducks</title>
+</head>
+<body>
+    <header>
+        <h1 id="logo">Mighty Ducks Hockey League</h1>
+        <nav class="main-nav">
+            <a class="home" href="./Home.html">Home</a>
+            <a class="main-link" href="./About.html">About MDHL</a>
+            <a class="main-link" href="/Contact.html">Contact</a>
+            <a class="main-link" href="/GameInformation.html">Game Information</a>
+            <a class="main-link" href="/GameRules.html">Game Rules</a>
+        </nav>
+    </header>
+    <section>
+        <form>  
+            <div class="container">  
+            <center>  <h1> Student Registration Form</h1> </center>  
+            <hr>  
+            <label> Firstname </label>   
+          <input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+          <label> Middlename: </label>   
+          <input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+          <label> Lastname: </label>    
+          <input type="text" name="lastname" placeholder="Lastname" size="15"required />
+          <label> Birth Date (mm/dd/yyyy): </label>    
+          <input type="text" name="birthdate" placeholder="birthdate" size="15"required />   
+          <div>  
+          <label>   
+          Grade :  
+          </label>   
+            
+          <select>  
+          <option value="Grade">Grade</option>  
+          <option value="PreSchool">PreSchool</option>  
+          <option value="HighSchool">HighSchool</option>  
+          <option value="College">College</option> 
+          </select>  
+          </div>  
+          <div>  
+          <label>   
+          Gender :  
+          </label><br>  
+          <input type="radio" value="Male" name="gender" checked > Male   
+          <input type="radio" value="Female" name="gender"> Female   
+          <input type="radio" value="Other" name="gender"> Other  
+          </div>  
+          <div>
+            <label>
+                Which elementary school do you live near by?
+              </label><br>
+          <input type="checkbox" value="AJ Katzenmaier" name="school"> AJ Katzenmaier   
+          <input type="checkbox" value="Greenbay" name="school"> Greenbay   
+          <input type="checkbox" value="Howard A Yager" name="school"> Howard A Yager  
+          <input type="checkbox" value="Marjory P Heart" name="school"> Marjory P Heart   
+          <input type="checkbox" value="South Elementary" name="school"> South Elementary   
+          <input type="checkbox" value="North elementary" name="school"> North elementary  
+          </div>
+          <div>
+            <label>
+                What position do you normally play?
+              </label><br>
+          <input type="checkbox" value="Forward" name="position"> Forward
+          <input type="checkbox" value="Defense" name="position"> Defense
+          <input type="checkbox" value="Midfield" name="position"> Midfield
+          <input type="checkbox" value="Goalkeeper" name="position"> Goalkeeper
+          </div>
+          <div>
+            <label>
+                Uniform Size:
+              </label><br>
+          <input type="checkbox" value="Youth Small" name="uniform"> Youth Small   
+          <input type="checkbox" value="Youth Medium" name="uniform"> Youth Medium
+          <input type="checkbox" value="Youth Large" name="uniform"> Youth Large
+          <input type="checkbox" value="Small" name="uniform"> Small
+          <input type="checkbox" value="Medium" name="uniform"> Medium
+          <input type="checkbox" value="Large" name="uniform"> Large
+          <input type="checkbox" value="Extra Large" name="uniform"> Extra Large
+          </div>
+          <label>   
+          Phone :  
+          </label>  
+          <input type="text" name="country code" placeholder="Country Code"  value="+54" size="2"/>   
+          <input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+          Current Address :  
+          <textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+          </textarea>
+          <div>
+            <label>Permission to Play</label><br>
+            <p>I, the parent of guardian of the minor registrant, agree that the registrant and i will abide by all the rules of the mighty ducks hockey league. In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs and activities,</p>
+            <label> Signature: </label>    
+            <input type="text" name="signature" placeholder="signature" size="15"required />   
+            <label> Date: </label>    
+            <input type="text" name="date" placeholder="date" size="15"required />   
+              
+        </div>
+          <button type="submit" class="registerbtn">Register</button>    
+          </form>
+    </section>
+</body>
+</html>
